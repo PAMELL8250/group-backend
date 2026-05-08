@@ -19,7 +19,7 @@ import seedAll from "./src/seeders/seedAll.js";   // ← Added
 const app = express();
 
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000","https://agrishopp.onrender.com/"],
+  origin: ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000","https://agrishopp.onrender.com"],
   credentials: true,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
